@@ -49,7 +49,6 @@ public class TestEmployeeData {
         Assert.assertEquals( "getEmployeeAPIData Failed", 200, responseObj.getStatusCode());
 
         String jsonResponse = responseObj.getBody().asString();
-        
         return jsonResponse;
     }
 
